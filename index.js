@@ -14,7 +14,7 @@ if (query === '-v' || query === '--version') {
   process.exit(0)
 }
 
-if (query === '-h' || query === '--help' || query === undefined) {
+if (query === '-h' || query === '--help') {
   console.log(getHelpText())
   process.exit(0)
 }

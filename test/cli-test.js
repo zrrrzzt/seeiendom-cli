@@ -53,17 +53,42 @@ tap.test('It returns version with --version flag', function versionWithV (test) 
   })
 })
 
-tap.test('It returns helptext with if no arguments supplied', function helpTextWithNothing (test) {
-  exec('./index.js', [], function helpTextWithNothing (error, stdout, stderr) {
-    if (error) {
-      console.error(stderr.toString())
-      throw error
-    } else {
-      test.equal(stdout.toString().trim(), getHelpText().toString().trim())
+tap.test('It returns result if argumet supplied',
+  function seeiendomDefault (test) {
+    exec('./index.js', ['0806-60/77'], function getDefault (error, stdout, stderr) {
+      if (error) {
+        console.error(stderr.toString())
+        throw error
+      } else {
+        test.ok(stdout.toString().trim(), 'true')
+        test.end()
+      }
+    })
+  }
+)
+
+tap.test('It returns nothing if argumet supplied',
+  function seeiendomDefault (test) {
+    exec('./index.js', ['jubadubaskogen'], function getDefault (error, stdout, stderr) {
+      if (error) {
+        console.error(stderr.toString())
+        throw error
+      } else {
+        test.ok(stdout.toString().trim(), '')
+        test.end()
+      }
+    })
+  }
+)
+
+tap.test('It throws error if argument not supplied',
+  function cliDefault (test) {
+    exec('./index.js', function getDefault (error, stdout, stderr) {
+      test.ok(error, 'Error OK')
       test.end()
-    }
-  })
-})
+    })
+  }
+)
 
 /*
 tap.test('It returns fasle if fodselsnummer is invalid',
