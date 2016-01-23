@@ -1,0 +1,8 @@
+[
+  "seeiendom-cli",
+  "CLI for seeiendom.no",
+  "Usage:",
+  "Search seeiendom.no. Pass in your query.",
+  "  $ seeiendom 0806-60/77",
+  ""
+]
