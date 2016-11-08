@@ -12,7 +12,7 @@
     "seeiendom": "index.js"
   },
   "engines": {
-    "node": ">=0.12.0"
+    "node": ">=4.6.1"
   },
   "scripts": {
     "test": "standard && tap --reporter=spec test/*.js",
