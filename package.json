@@ -41,6 +41,6 @@
     "tap": "8.0.0"
   },
   "dependencies": {
-    "seeiendom": "3.0.5"
+    "seeiendom": "3.0.6"
   }
 }
