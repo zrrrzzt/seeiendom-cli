@@ -1,36 +1,30 @@
 [![Build Status](https://travis-ci.org/zrrrzzt/seeiendom-cli.svg?branch=master)](https://travis-ci.org/zrrrzzt/seeiendom-cli)
 [![Coverage Status](https://coveralls.io/repos/zrrrzzt/seeiendom-cli/badge.svg?branch=master&service=github)](https://coveralls.io/github/zrrrzzt/seeiendom-cli?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
 # seeiendom-cli
+
 CLI for [www.seeiendom.no](http://www.seeiendom.no/)
 
 ## Installation
-From npm
-```
+
+```bash
 $ npm install seeiendom-cli -g
 ```
 
-From GitHub
-```sh
-$ git clone git@github.com:zrrrzzt/seeiendom-cli.git
-```
-
-cd into directory and run setup
-```sh
-$ npm run setup
-```
-
 ## Usage
+
 Send your query.
 
-```sh
+```bash
 $ seeiendom 0806-60/77
 ```
 
 ## Result
+
 Example of returned data
 
-```javascript
+```JavaScript
 [ 
   { 
     ID: '41515792',
@@ -105,11 +99,16 @@ Example of returned data
 ```
 
 ## Disclaimer
+
 This is not an official module from [www.seeiendom.no](http://www.seeiendom.no/) and it is meant for private use only.
 For professional services please contact [Kartverket](http://kartverket.no/Bestille/Bestille-eiendomsdata/)
 
 ## Related
+
 - [seeiendom](https://github.com/zrrrzzt/seeiendom) API for this module
 
 ## License
+
 [MIT](LICENSE)
+
+![alt text](https://robots.kebabstudios.party/seeiendom-cli.png "Robohash image of seeiendom-cli")

@@ -1,7 +1,7 @@
 {
   "name": "seeiendom-cli",
   "description": "CLI for seeiendom.no",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "author": {
     "name": "Geir Gåsodden",
     "email": "geir.gasodden@pythonia.no",
@@ -12,13 +12,13 @@
     "seeiendom": "index.js"
   },
   "engines": {
-    "node": ">=4.6.2"
+    "node": ">=4.7.2"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/*.js",
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
-    "setup": "npm install && node setup.js"
+    "setup": "npm install"
   },
   "keywords": [
     "CLI",
