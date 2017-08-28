@@ -1,7 +1,8 @@
 {
   "name": "seeiendom-cli",
   "description": "CLI for seeiendom.no",
-  "version": "2.0.3",
+  "version": "2.0.4",
+  "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
     "email": "geir.gasodden@pythonia.no",
@@ -12,7 +13,7 @@
     "seeiendom": "index.js"
   },
   "engines": {
-    "node": ">=4.7.2"
+    "node": ">=4.8.4"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/*.js",
@@ -28,12 +29,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/zrrrzzt/seeiendom-cli.git"
+    "url": "https://github.com/zrrrzzt/seeiendom-cli.git"
   },
   "bugs": {
-    "url": "http://github.com/zrrrzzt/seeiendom-cli/issues"
+    "url": "https://github.com/zrrrzzt/seeiendom-cli/issues"
   },
-  "license": "MIT",
+  "homepage": "https://github.com/zrrrzzt/seeiendom-cli",
   "devDependencies": {
     "coveralls": "2.13.1",
     "nsp": "2.7.0",
