@@ -111,4 +111,4 @@ For professional services please contact [Kartverket](http://kartverket.no/Besti
 
 [MIT](LICENSE)
 
-![alt text](https://robots.kebabstudios.party/seeiendom-cli.png "Robohash image of seeiendom-cli")
+![Robohash image of seeiendom-cli](https://robots.kebabstudios.party/seeiendom-cli.png "Robohash image of seeiendom-cli")
