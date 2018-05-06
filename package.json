@@ -43,6 +43,6 @@
     "tap": "11.1.4"
   },
   "dependencies": {
-    "seeiendom": "5.0.0"
+    "seeiendom": "5.0.1"
   }
 }
