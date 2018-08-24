@@ -13,7 +13,7 @@
     "seeiendom": "index.js"
   },
   "engines": {
-    "node": ">=8.11.1"
+    "node": ">=8.11.4"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/*.js",
