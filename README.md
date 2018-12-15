@@ -27,81 +27,42 @@ Example of returned data
 ```JavaScript
 [ 
   { 
-    ID: '41515792',
-    TITTEL: '0806-60/77',
-    TITTEL2: 'SKIEN-60/77',
-    TITTEL3: '60/77, SKIEN',
-    TITTEL4: 'FYLKESBAKKEN 6, 3715 SKIEN-60/77',
-    NAVN: '0806-60/77',
-    TILHOERIGHET: 'SKIEN, SKIEN, TELEMARK',
-    GARDSNR: '60',
-    BRUKSNR: '77',
-    FESTENR: '0',
-    SEKSJONSNR: '0',
-    KOMMUNENR: '0806',
-    KOMMUNENAVN: 'SKIEN',
-    VEGADRESSE: 'FYLKESBAKKEN 6, 3715 SKIEN',
-    VEGADRESSE2: 'FYLKESBAKKEN 6',
-    LATITUDE: '6564248.55',
-    LONGITUDE: '534927.62',
-    FYLKESNR: '08',
-    FYLKESNAVN: 'TELEMARK',
-    OBJEKTTYPE: 'EIENDOM',
-    KILDE: 'EIENDOM' 
+    id: 41515792,
+    kommunenavn: 'SKIEN',
+    kommunenr: '0806',
+    gaardsnr: 60,
+    bruksnr: 77,
+    festenr: 0,
+    seksjonsnr: 0,
+    veiadresse: 'FYLKESBAKKEN 6, 3715 SKIEN' 
   },
   { 
-    ID: '41515792',
-    TITTEL: '0806-60/77',
-    TITTEL2: 'SKIEN-60/77',
-    TITTEL3: '60/77, SKIEN',
-    TITTEL4: 'FYLKESBAKKEN 8, 3715 SKIEN-60/77',
-    NAVN: '0806-60/77',
-    TILHOERIGHET: 'SKIEN, SKIEN, TELEMARK',
-    GARDSNR: '60',
-    BRUKSNR: '77',
-    FESTENR: '0',
-    SEKSJONSNR: '0',
-    KOMMUNENR: '0806',
-    KOMMUNENAVN: 'SKIEN',
-    VEGADRESSE: 'FYLKESBAKKEN 8, 3715 SKIEN',
-    VEGADRESSE2: 'FYLKESBAKKEN 8',
-    LATITUDE: '6564248.55',
-    LONGITUDE: '534927.62',
-    FYLKESNR: '08',
-    FYLKESNAVN: 'TELEMARK',
-    OBJEKTTYPE: 'EIENDOM',
-    KILDE: 'EIENDOM' 
+    id: 41515792,
+    kommunenavn: 'SKIEN',
+    kommunenr: '0806',
+    gaardsnr: 60,
+    bruksnr: 77,
+    festenr: 0,
+    seksjonsnr: 0,
+    veiadresse: 'FYLKESBAKKEN 8, 3715 SKIEN' 
   },
   { 
-    ID: '41515792',
-    TITTEL: '0806-60/77',
-    TITTEL2: 'SKIEN-60/77',
-    TITTEL3: '60/77, SKIEN',
-    TITTEL4: 'FYLKESBAKKEN 10, 3715 SKIEN-60/77',
-    NAVN: '0806-60/77',
-    TILHOERIGHET: 'SKIEN, SKIEN, TELEMARK',
-    GARDSNR: '60',
-    BRUKSNR: '77',
-    FESTENR: '0',
-    SEKSJONSNR: '0',
-    KOMMUNENR: '0806',
-    KOMMUNENAVN: 'SKIEN',
-    VEGADRESSE: 'FYLKESBAKKEN 10, 3715 SKIEN',
-    VEGADRESSE2: 'FYLKESBAKKEN 10',
-    LATITUDE: '6564248.55',
-    LONGITUDE: '534927.62',
-    FYLKESNR: '08',
-    FYLKESNAVN: 'TELEMARK',
-    OBJEKTTYPE: 'EIENDOM',
-    KILDE: 'EIENDOM' 
-  } 
+    id: 41515792,
+    kommunenavn: 'SKIEN',
+    kommunenr: '0806',
+    gaardsnr: 60,
+    bruksnr: 77,
+    festenr: 0,
+    seksjonsnr: 0,
+    veiadresse: 'FYLKESBAKKEN 10, 3715 SKIEN' 
+  }
 ]
 ```
 
 ## Disclaimer
 
-This is not an official module from [www.seeiendom.no](http://www.seeiendom.no/) and it is meant for private use only.
-For professional services please contact [Kartverket](http://kartverket.no/Bestille/Bestille-eiendomsdata/)
+This is not an official module from [seeiendom.kartverket.no](https://seeiendom.kartverket.no) and it is meant for private use only.
+For professional services please contact [Kartverket](https://kartverket.no/eiendom/eiendomsinformasjon/tilgang-til-eiendomsdata/)
 
 ## Related
 
@@ -110,5 +71,3 @@ For professional services please contact [Kartverket](http://kartverket.no/Besti
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of seeiendom-cli](https://robots.kebabstudios.party/seeiendom-cli.png "Robohash image of seeiendom-cli")
