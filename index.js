@@ -1,13 +1,9 @@
 #! /usr/bin/env node
-'use strict'
 
-var seeiendom = require('seeiendom')
-var getHelpText = require('./lib/get-help-text')
-var query = process.argv[2]
-var pkg = require('./package.json')
-var options = {
-  query: query
-}
+const seeiendom = require('seeiendom')
+const getHelpText = require('./lib/get-help-text')
+const query = process.argv[2]
+const pkg = require('./package.json')
 
 if (query === '-v' || query === '--version') {
   console.log(pkg.version)
@@ -19,7 +15,7 @@ if (query === '-h' || query === '--help') {
   process.exit(0)
 }
 
-seeiendom(options, function (error, data) {
+seeiendom(query, function (error, data) {
   if (error) {
     console.error(error)
     process.exit(1)
