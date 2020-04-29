@@ -1,7 +1,7 @@
 {
   "name": "seeiendom-cli",
   "description": "CLI for seeiendom.no",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
