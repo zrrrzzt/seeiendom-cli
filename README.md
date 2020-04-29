@@ -17,7 +17,7 @@ $ npm install seeiendom-cli -g
 Send your query.
 
 ```bash
-$ seeiendom 0806-60/77
+$ seeiendom 3807-60/77
 ```
 
 ## Result
@@ -29,7 +29,7 @@ Example of returned data
   { 
     id: 41515792,
     kommunenavn: 'SKIEN',
-    kommunenr: '0806',
+    kommunenr: '3807',
     gaardsnr: 60,
     bruksnr: 77,
     festenr: 0,
@@ -39,7 +39,7 @@ Example of returned data
   { 
     id: 41515792,
     kommunenavn: 'SKIEN',
-    kommunenr: '0806',
+    kommunenr: '3807',
     gaardsnr: 60,
     bruksnr: 77,
     festenr: 0,
@@ -49,7 +49,7 @@ Example of returned data
   { 
     id: 41515792,
     kommunenavn: 'SKIEN',
-    kommunenr: '0806',
+    kommunenr: '3807',
     gaardsnr: 60,
     bruksnr: 77,
     festenr: 0,
